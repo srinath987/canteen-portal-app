@@ -1,0 +1,715 @@
+.container{
+    justify-content: center;
+}
+.navtab button{
+    font:15px;
+    color: white;
+    font-weight: bold;
+    text-transform: none;
+}
+
+#home .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.container h1{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 70px;
+
+}
+.container h2{
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin: 10px;
+}
+
+.search2{ 
+    padding:35px;
+    width:49%;
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+.searchbut{
+    width:20%;
+}
+.searchbar{
+    width:80%;
+}
+
+.img-desc{
+    width: 250px;
+    height:200px;
+    align-content: center;
+    border-radius: 20px;
+    padding:10px;
+}
+
+.gallery{
+    margin-top: 200px;
+}
+
+.gallery h1{
+    color:black;
+
+}
+
+.items{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+
+}
+.card{
+    justify-content: center;
+    align-items: center;
+    margin:20px;
+    cursor: pointer;
+    border:1px solid #c3bfbf;
+    border-radius: 20px;
+}
+.card h2{
+    color :black;
+    background-color:white;
+    width: 100%;
+    height: 50px;
+    margin: auto;
+}
+
+.img-desc h1{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.2s ease-in-out;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+.card:hover > .img-desc{
+    transition: 0.2s ease-in-out;
+    opacity: 0.8;
+    transform: scale(1.01);
+}
+
+.card:hover > .img-desc h1{
+    transition: 0.2s ease-in-out;
+    display: block;
+    opacity: 1;
+}
+.signin{
+    position: absolute;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.1)) ,url(../../img/bg6.jpg) ;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+    color:white;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+
+}
+.login{
+    height:60%;
+    width: 30%;
+    margin-bottom:20vh;
+    background:rgba(40,20,20, 0.7);
+    position: relative;
+    color:white;
+    border-radius: 20px;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.login .form-control:focus {
+    
+    border-color: #080808;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+.login .batch:focus {
+
+    border-color: #080808;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+  .login .batch{
+    
+    border-color:white;
+    color:white;
+    width:100px;
+  }
+
+  .login .starthrs{
+    
+    border-color:white;
+    color:white;
+    width:100px;
+  }
+
+ 
+  .login .startmins{
+    
+    border-color:white;
+    color:white;
+    width:100px;
+  }
+
+  .login .endhrs{
+    
+    border-color:white;
+    color:white;
+    width:100px;
+  }
+
+ 
+  .login .endmins{
+    
+    border-color:white;
+    color:white;
+    width:100px;
+  }
+
+  .login .start{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+  }
+
+
+  
+  .login .end{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+.login .start button{
+    margin:0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.login .end button{
+    margin:0;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+  .age-phone{
+      display: flex;
+    align-items: center;
+  }
+
+  .age-phone input{
+      width:95%;
+  }
+
+  .register{
+      height: 85%; 
+  }
+  .signup h1{
+      margin-top: 100px;
+  }
+
+.login button{
+    width:100%;
+    margin-top:20px;
+}
+.login a{
+    font-size: 12px;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+
+.nav2 a{
+    color:white;
+}
+
+.canteen h3{
+    color:black;
+    margin:10px;
+    text-align: center;
+}
+
+.canteen .card{
+    border-radius: 5px;
+    display: flex;
+    align-items: normal;
+    background-color: rgba(0 0 0 / 3%);
+    box-shadow: 1px 1px grey;
+    cursor:auto;
+}
+
+.canteen .container{
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.canteen .card img{
+    height:150px;
+    width:200px;
+    display: inline;
+}
+
+.canteen .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.card .pic{
+    display: inline;
+    width:20%;
+}
+.description{
+    width:30%;
+    margin-left: 10px;
+}
+
+.canteen  h6{
+    text-align: center;
+}
+
+.canteen li{
+    width:60%;
+
+}
+
+.canteen ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+.canteen .addons li{
+    width:100%;
+    font-size:12px;
+}
+
+.addons h6{
+    display: block;
+}
+
+.addons{
+    justify-content: center;
+    align-items: center;
+    height: 90%;
+    max-height: 80%;
+    overflow-y: scroll;
+}
+
+.right{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quantity{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.quantity button{
+    margin-top:5px ;
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header{
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile img{
+    width: 200px;
+    height: 200px;
+}
+
+.details{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.profile ul{
+    list-style: none;
+    background-color: rgba(0 0 0 / 3%);;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+
+.details li{
+    margin:10px;
+}
+li input{
+    width:390px;
+}
+.edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+li h4{
+    font-weight: normal;
+}
+.sne button{
+    margin:10px;
+}
+
+.submitbut{
+    width:300px;
+}
+
+.orders .card{
+    border-radius: 0px;
+    box-shadow: 1px 1px 3px grey;
+    width:60%;
+    cursor: auto;
+}
+.myorders h3{
+    text-align: center;
+    padding:10px;
+}
+
+.orders .card-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width:100%;
+    border-radius: 0px;
+}
+.orders img{
+    height:180px;
+    width:200px
+}
+
+.orders ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.orders h6{
+    text-align: center;
+
+}
+
+.orders .pic{
+    display:flex;
+    width:200px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.orders button{
+    padding:5px;
+    margin-top: 5px;
+    width:100%;
+    cursor: auto;
+}
+
+.modal-body{
+    display:flex;
+    flex-direction: row;
+}
+
+.dropdown-menu{
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+
+.modal-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.modal-body h6{
+    text-align: center;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pending-orders{
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+.give-rating{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.give-rating button{
+    margin:0;
+}
+
+.vendor-dashboard h3{
+    text-align: center;
+}
+
+.pending-orders .card-body img{
+    width:300px;
+    height: 250px;
+}
+
+.pending-orders .card-body h6{
+    text-align: center;
+    width: 100%;
+}
+
+.pending-orders .card-body .description{
+    width: 100%;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:0;
+}
+
+.pending-orders .card{
+    display: flex;
+    flex-direction: row;
+    width:30%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px grey;
+    width: 25%;
+    cursor: auto;
+}
+.pending-orders .pic{
+    display: flex;
+    width: 300px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.pending-orders .pic  button{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.pending-orders ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.pending-orders li{
+    text-align: center;
+}
+
+#movestage{
+    width:250px;
+}
+
+.pending-orders .pic button{
+    cursor: auto;
+}
+
+.vendor-menu .card{
+    width:30%;
+}
+
+.vendor-menu .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.vendor-menu .pic-upload{
+    display: flex;
+    width:300px;
+    flex-direction: column;
+}
+.vendor-menu .title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    margin: 5px;
+}
+
+.vendor-menu input{
+    text-align: center;
+}
+
+.vendor-menu .tags{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.vendor-menu .type{
+    display: flex;
+    justify-content: center;
+}
+
+.vendor-menu .price{
+    display: flex;
+    justify-content: center;
+
+}
+.vendor-menu ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    width:300px;
+    justify-content: center;
+}
+.vendor-menu li{
+    width:400px;
+    justify-content: center;
+}
+
+.vendor-menu .description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.vendor-menu input{
+    margin: 5px;
+    width:200px;
+}
+
+.vendor-menu button{
+    margin: 5px;
+}
+.vendor-menu .type input{
+    width:10px;
+}
+
+
+.vendor-menu h3{
+    text-align: center;
+    margin: 15px;
+}
+
+.addtags{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.vendor-menu .addaddons{
+    display: flex;
+    align-items: center;
+}
+
+.itemtags{
+    display: flex;
+    align-items: center;
+}
+
+.additem input{
+    width:200px;
+}
+
+.left buttton{
+    width:200px;
+}
+
+.most-sold .card{
+    width:100%;
+    margin :5px;
+}
+
+.most-sold .positions{
+    width:25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:20px;
+}
+
+.most-sold h4{
+    margin: 0;
+}
+
+.stats h3{
+    text-align: center;
+    margin:20px;
+}
+.most-sold{
+    justify-content: center;
+}
+.status-count ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+}
+.status-count li{
+    background-color: black;
+    margin:20px;
+    height: 30px;
+    width:50%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px grey;
+}
+
+
+.vendor-dashboard .pending-orders{
+    margin:auto;
+}
+
+.profile .start button{
+    border:1px solid black;
+
+}
+
+
+.profile .start{
+    margin:20px;
+}
+
+.profile .end{
+    margin:20px;
+}
+
+.profile .end button{
+    border:1px solid black;
+
+}
